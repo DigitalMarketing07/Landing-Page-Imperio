@@ -12,20 +12,24 @@ const Hero = () => {
           <div className="hero-title">
             <div className="orange-circle" />
             <h1>
-              Discover <br />
-              Most Suitable <br />
-              Railings
+              Change <br />
+              Your Railings, <br />
+              Not House
             </h1>
           </div>
 
           <div className="flexColStart hero-des">
-            <span>Find a variety of railings that suit you very easily</span>
-            <span>Forgot all difficulties in finding a residence for you</span>
+            <span className="secondaryText">
+              Find a variety of railings that suit you very easily
+            </span>
+            <span className="secondaryText">
+              Forgot all difficulties in finding the railings for you
+            </span>
           </div>
 
           <div className="flexCenter search-bar">
             {/* <input type="text" /> */}
-            <button className="button">Locate US</button>
+            <button className="button">Locate Us</button>
             {/* <HiLocationMarker color="var(--blue)" size={25} /> */}
           </div>
           <div className="flexCenter stats">
