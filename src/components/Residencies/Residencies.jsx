@@ -8,10 +8,10 @@ const Residencies = () => {
   return (
     <section className="r-wrapper">
       <div className="paddings innerWidth r-container">
-        <diev className="r-head flexColStart">
+        <div className="r-head flexColStart">
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Railings</span>
-        </diev>
+        </div>
 
         <Swiper {...sliderSettings}>
           <SliderButtons />
